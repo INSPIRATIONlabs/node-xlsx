@@ -1,8 +1,9 @@
 {
   "name": "node-xlsx",
-  "author": "Olivier Louvignes",
+  "author": "INSPIRATIONlabs",
+  "credits": "Olivier Louvignes",
   "license": "Microsoft Office Extensible File License",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "Node.js excel parser & builder",
   "main": "index.js",
   "scripts": {
@@ -10,14 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgcrea/node-xlsx.git"
+    "url": "https://github.com/INSPIRATIONlabs/node-xlsx.git"
   },
   "keywords": [
     "excel",
-    "xml"
+    "xml",
+    "xlsx"
   ],
   "dependencies": {
-    "debug": ">= 0.7.2"
+    "debug": ">= 0.7.2",
+    "node-zip":">=0.0.1",
+    "archiver":">=0.0.1"
   },
   "devDependencies": {
     "nodeunit": ">= 0.7.4"
