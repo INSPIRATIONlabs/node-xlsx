@@ -1,5 +1,5 @@
 {
-  "name": "node-xlsx",
+  "name": "@inspirationlabs/node-xlsx",
   "author": "INSPIRATIONlabs",
   "credits": "Olivier Louvignes",
   "license": "Microsoft Office Extensible File License",
